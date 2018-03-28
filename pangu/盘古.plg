@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ÅÌ¹Å - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/ÅÌ¹Å.res" /d "NDEBUG" /d "_AFXDLL" "E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å.rc"" 
+Creating temporary file "C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP352.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ÅÌ¹Å.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\AcceptSock.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\BtnST.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\ClientSock.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\HelpDlg.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\HoverEdit.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\webbrowser2.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\WinXPButtonST.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å.cpp"
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\ÅÌ¹ÅDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP352.tmp" 
+Creating temporary file "C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP353.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/ÅÌ¹Å.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\temp\ÅÌ¹Å1.5´úÂë\ÅÌ¹Å1.5´úÂë\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP353.tmp" 
+Creating temporary file "C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP354.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/ÅÌ¹Å¿Í»§¶Ë.pdb" /machine:I386 /out:"../ÅÌ¹Å½©Ê¬/ÅÌ¹Å¿Í»§¶Ë.exe" /opt:nowin98 
+".\Release\AcceptSock.obj"
+".\Release\BtnST.obj"
+".\Release\ClientSock.obj"
+".\Release\HelpDlg.obj"
+".\Release\HoverEdit.obj"
+".\Release\StdAfx.obj"
+".\Release\webbrowser2.obj"
+".\Release\WinXPButtonST.obj"
+".\Release\ÅÌ¹Å.obj"
+".\Release\ÅÌ¹ÅDlg.obj"
+".\Release\ÅÌ¹Å.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\tenax\LOCALS~1\Temp\RSP354.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AcceptSock.cpp
+BtnST.cpp
+ClientSock.cpp
+HelpDlg.cpp
+HoverEdit.cpp
+webbrowser2.cpp
+WinXPButtonST.cpp
+ÅÌ¹Å.cpp
+ÅÌ¹ÅDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ÅÌ¹Å¿Í»§¶Ë.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

